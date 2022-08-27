@@ -2,6 +2,6 @@
 Desafio de recriar o Feed do Twittter.
 
 ## Tecnologias usadas
--ReactJS 
--Styled-components 
+-ReactJS <br/>
+-Styled-components <br/>
 -Vite 
