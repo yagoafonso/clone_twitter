@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContainerTwitterPost = styled.div`
-  width: 598px;
+  width: 35rem;
   height: 160px;
   display: flex;
   flex-direction: row;
@@ -61,6 +61,7 @@ export const ButtonConfirmTwitter = styled.button`
   width: 74px;
   height: 40px;
   padding: 10px;
+  margin-right: 10px;
   border-radius: 20px;
   gap: 10px;
   background: var(--blue-300);

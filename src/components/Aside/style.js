@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const ContainerAside = styled.div`
   background: aqua;
-  width: 25%;
+  width: 15rem;
 `
 
 export const ContainerTitle = styled.div`

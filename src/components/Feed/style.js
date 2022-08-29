@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const ContainerFeed = styled.div`
-  width: 50%;
+  width: 35rem;
 
 `
 export const ContainerTitle = styled.div`

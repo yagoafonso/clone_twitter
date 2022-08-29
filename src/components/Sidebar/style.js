@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    width: 25%;
+    width: 15rem;
     height: 100vh;
 `
 
@@ -24,6 +24,7 @@ export const NavbarContainer = styled.div`
 `
 export const NavbarUl = styled.ul`
     width: 100%;
+    list-style-type: none;
 
 `
 export const NavbarLink = styled.li`
