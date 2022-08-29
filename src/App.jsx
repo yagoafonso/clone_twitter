@@ -3,16 +3,19 @@ import { useState } from 'react'
 
 import GlobalStyle from './global'
 import { Sidebar } from './components/Sidebar/Sidebar'
+import { Feed } from './components/Feed/Feed'
+import { Aside } from './components/Aside/Aside'
+import { Wrapper } from './style'
+
 
 function App() {
-
-
   return (
-    <div>
+    <Wrapper>
       <GlobalStyle />
       <Sidebar/>
-
-    </div>
+      <Feed />
+      <Aside />
+    </Wrapper>
 
   )
 }

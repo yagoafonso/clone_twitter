@@ -13,6 +13,10 @@ export default createGlobalStyle `
         --grey-400: #5B7083;
     }
 
+    :focus{
+        outline: transparent;
+    }
+
     *{
         padding: 0;
         margin: 0;
@@ -24,7 +28,7 @@ export default createGlobalStyle `
         -webkit-font-smoothing: antialiased;
     }
 
-    body, input, text-area, button{
+    body, input, textarea, button{
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 1rem;
