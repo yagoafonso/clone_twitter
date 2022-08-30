@@ -15,7 +15,7 @@ export const ContainerLiked = styled.div`
 
 export const ContainerTweet = styled.div`
     width: 35rem;
-    height: 160px;
+    height: ${props => props.hasImage ? '469px' : '214px'};
     display: flex;
     box-shadow: 0px 1px 0px var(--grey-300);
     flex-direction: row;
@@ -79,6 +79,13 @@ export const ContainerContent = styled.div`
 `
 export const ContentTweetPost = styled.div`
     width: 29rem;
+`
+export const ContainerImg = styled.img`
+    width: 29rem;
+    height: 17rem;
+    object-fit: cover;
+    border-radius: 16px;
+
 `
 export const ContainerFooter = styled.footer`
     display: flex;

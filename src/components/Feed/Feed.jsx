@@ -15,6 +15,8 @@ export function Feed() {
         </ContainerTitle>
         <WriteTweet />
         <Tweet />
+        <Tweet />
+        <Tweet />
     </ContainerFeed>
   );
 }

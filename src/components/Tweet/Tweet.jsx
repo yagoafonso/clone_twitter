@@ -10,7 +10,8 @@ import {
   ContainerFooter,
   ContainerButton,
   ContenteMore,
-  ContainerLiked
+  ContainerLiked,
+  ContainerImg
  } from './style'
 
 
@@ -36,6 +37,7 @@ export function Tweet(props){
           <ContentTweetPost>
             <p>The DesignLab is doing major work on Community-Driven Design, with several different variants. If you are working in this area, submit a paper to the DIS conference here in San Diego (see DesignLab posting below)....</p>
             <a href="">https://facebook.com/don.norman.18/...</a>
+            <ContainerImg src="https://github.com./yagoafonso.png" alt="" />
           </ContentTweetPost>
           <ContainerFooter>
             <ContainerButton className="reply" >
