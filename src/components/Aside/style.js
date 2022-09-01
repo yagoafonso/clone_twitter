@@ -38,6 +38,24 @@ export const ContentInput = styled.input`
   font-size: .9rem;
   line-height: 1.25rem;
   color: var(--grey-400);
+`
 
+export const ContainerTopTopics = styled.div`
+width: 14rem;
+height: 516px;
+background: lightgray;
 
+`
+export const ContentHead = styled.div`
+  width: 14rem;
+  height: 48px;
+  padding: 12px 16px;
+  strong {
+  font-family: 'Segoe UI',  sans-serif;
+  font-weight: 900;
+  size: 1.25rem;
+  line-height: 1.5rem;
+  height: 24px;
+  justify-content: center;
+}
 `

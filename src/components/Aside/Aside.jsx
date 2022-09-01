@@ -1,10 +1,15 @@
 import React from "react";
 import { MagnifyingGlass } from 'phosphor-react'
+import { CardTopTopics } from "../CardTopTopics/CardTopTopics";
 import { 
   ContainerAside,
   ContainerSearch,
   ContentInput,
+  ContainerTopTopics,
+  ContentHead
 } from "./style";
+
+
 export function Aside() {
   return (
     <ContainerAside>
@@ -13,7 +18,11 @@ export function Aside() {
         <ContentInput type="text" placeholder="Search Twitter"></ContentInput>
       </ContainerSearch>
       <ContainerTopTopics>
-        <h1>What´s happening</h1>
+        <ContentHead>
+          <strong>What´s happening</strong>
+        </ContentHead>
+        
+        <CardTopTopics />
       </ContainerTopTopics>
     </ContainerAside>
     
