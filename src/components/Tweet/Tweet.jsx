@@ -16,6 +16,7 @@ import {
 
 
 export function Tweet(props){
+  const hasImage = true
   return (
     <>
       <ContainerLiked><strong><HeartStraight size={15} color="var(--grey-400)" weight="bold" /><span>Figma Liked</span></strong></ContainerLiked>
@@ -34,10 +35,10 @@ export function Tweet(props){
                 <DotsThree  size={20}/>
               </ContenteMore>
           </ContainerTitle>
-          <ContentTweetPost>
+          <ContentTweetPost hasImage>
             <p>The DesignLab is doing major work on Community-Driven Design, with several different variants. If you are working in this area, submit a paper to the DIS conference here in San Diego (see DesignLab posting below)....</p>
             <a href="">https://facebook.com/don.norman.18/...</a>
-            <ContainerImg src="https://github.com./yagoafonso.png" alt="" />
+          
           </ContentTweetPost>
           <ContainerFooter>
             <ContainerButton className="reply" >
